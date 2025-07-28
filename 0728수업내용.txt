@@ -1,0 +1,13 @@
+오늘의 목표
+ - 플레이어 라이프 구현
+ - 적과 충돌 시 라이프 감소, 라이프 0 이하면 사망 후 게임 오버 처리
+ - 게임 오버 UI 제작 후 출력
+ - 재시작 기능 추가 : SceneManager.LoadScene("씬 이름");
+ - 위의 함수를 사용하려면 스크립트 위쪽에
+   using UnityEngine.SceneManagement; 추가
+
+Player.cs에 hp 변수 생성 / 값 초기화
+플레이어 오브젝트에 BoxCollider2D를 추가
+플레이어가 적과 충돌했는지 체크 (Tag를 이용)
+
+타이틀 화면, 로딩 화면 추가
